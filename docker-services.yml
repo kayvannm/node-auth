@@ -1,0 +1,9 @@
+version: '2'
+services:
+  db:
+    image: registry.ronaksoftware.com/base/mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+#    volumes:
+#      - ./db:/data/db:rw
